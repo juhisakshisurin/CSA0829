@@ -1,0 +1,11 @@
+n=1000
+l=[]
+while n<=9999:
+    s=str(n)
+    s1=int(s[0:2])
+    s2=int(s[2:4])
+    su=s1+s2
+    sq=su*su
+    if sq==n:
+        print(n)
+    n+=1
